@@ -1,7 +1,7 @@
-name: ""
-description: ""
+name: "Hilit.it"
+description: "Hilit.it Public Site"
 
-url: "[YOUR DOMAIN]"
+url: "www.hilit.it"
 
 paginate: 10
 
