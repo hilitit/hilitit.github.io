@@ -14,9 +14,23 @@ Highlight it (hilit.it) is an open source project.
   * when other readers open those articles, they will have the option to see the lines other readers find interesting highlighted.
   * as more readers highlight lines, an aggregation/consessus can be generated of the most important lines.
 
+## Privacy
 
- [x] xxxx
+In order to protect users from accidentaly highlighting sensitive data
 
- [ ] xxxx
+ * only HTTP sites are hilitable, HTTPS sites are not hilitable.
+ * a list of un hilitable sites will be set, sites like gmail.com,
+ * pages are by default un hilitable, until one first user explicitly enables hilit.it for this page
+
+# Project Status
+
+## Browser, Chrome Extension
+ * [x] xxxx
+ * [ ] xxxx
+
+## Server, Ruby On Rails 
+ * [x] xxxx
+ * [ ] xxxx
+
 
 
