@@ -243,3 +243,13 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+
+/* https://tuananh.org/2014/08/04/writing-your-first-jekyll-plugin */
+.ballot_box_with_check:before {
+  content: "\2611\ ";
+}
+.ballot_box:before {
+  content: "\2610\ ";
+}
+
