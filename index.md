@@ -26,16 +26,22 @@ In order to protect users from accidentaly highlighting sensitive data
 
 ## Browser, Chrome Extension
 
- * [ ] Chrome options login
- * [ ] Chrome options save login credentials
+ * [x] Chrome options login
+   * [x] Chrome options login, link to register
+   * [x] Chrome options save login credentials
+   * [x] Chrome reload save credentials on load
+   * [x] message to indicate login failure
  * [ ] Activate hilit.it for a page first time.
  * [ ] hilit text and feed server, second time and later
  * [ ] load hilits from server
  * [ ] highlight text in pages
+   * [ ] logged in users, show popup with button to highlight
+   * [ ] guests, show link to options page to login
  * [ ] dim Chrome page_action icon to indicate no available hilits
  * [ ] black out Chrome page_action icon to indicate site non hilitable
+   * [ ] click on page_actions icon gives message that web-page is non hilightable
  * [ ] flash Chrome page_action icon to indicate available hilits
- * [ ] aggreate hilits to generate consessus hilits
+ * [ ] aggreate overlapping hilits to generate consessus hilits
 
 ## Server, Ruby On Rails 
  * [ ] User management (devise)
@@ -48,7 +54,9 @@ In order to protect users from accidentaly highlighting sensitive data
    * [ ] index/list 
    * [ ] show 
   
+## Web client, AngularJS
 
+## Mobile client, iOS
 
 
 
