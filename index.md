@@ -31,16 +31,23 @@ In order to protect users from accidentaly highlighting sensitive data
    * [x] Chrome options save login credentials
    * [x] Chrome reload save credentials on load
    * [x] message to indicate login failure
- * [ ] Activate hilit.it for a page first time.
- * [ ] hilit text and feed server, second time and later
- * [ ] load hilits from server
- * [ ] highlight text in pages
-   * [ ] logged in users, show popup with button to highlight
-   * [ ] guests, show link to options page to login
- * [ ] dim Chrome page_action icon to indicate no available hilits
- * [ ] black out Chrome page_action icon to indicate site non hilitable
+ * [x] Activate hilit.it for a page first time.
+   * [x] message that no previous hilits
+   * [x] logged in user, will have the option to highlight
+   * [x] guest given login link
+ * [x] hilit text and feed server, second time and later
+   * [x] hilit text and 
+   * [x] post to server
+ * [x] load hilits from server
+   * [x] for logged in users
+   * [x] for guests
+ * [x] highlight text in pages
+   * [x] logged in users, show popup with button to highlight
+   * [ ] guests, can't highlight text
+ * [ ] mark Chrome page_action icon (blue) to indicate no available hilits, but allowed
+ * [ ] black out Chrome page_action icon (red) and (stop sign on it) to indicate site non hilitable
    * [ ] click on page_actions icon gives message that web-page is non hilightable
- * [ ] flash Chrome page_action icon to indicate available hilits
+ * [ ] flash Chrome page_action icon (green) to indicate available hilits
  * [ ] aggreate overlapping hilits to generate consessus hilits
 
 ## Server, Ruby On Rails 
