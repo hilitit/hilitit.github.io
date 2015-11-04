@@ -43,11 +43,11 @@ In order to protect users from accidentaly highlighting sensitive data
    * [x] for guests
  * [x] highlight text in pages
    * [x] logged in users, show popup with button to highlight
-   * [ ] guests, can't highlight text
- * [ ] mark Chrome page_action icon (blue) to indicate no available hilits, but allowed
- * [ ] black out Chrome page_action icon (red) and (stop sign on it) to indicate site non hilitable
-   * [ ] click on page_actions icon gives message that web-page is non hilightable
- * [ ] flash Chrome page_action icon (green) to indicate available hilits
+   * [x] guests, can't highlight text
+ * [x] mark Chrome page_action icon (blue) to indicate no available hilits, but allowed
+ * [x] black out Chrome page_action icon (red) and (stop sign on it) to indicate site non hilitable
+   * [x] click on page_actions icon gives message that web-page is non hilightable
+ * [x] flash Chrome page_action icon (green) to indicate available hilits
  * [ ] aggreate overlapping hilits to generate consessus hilits
 
 ## Server, Ruby On Rails 
