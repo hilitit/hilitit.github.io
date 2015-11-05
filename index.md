@@ -7,6 +7,7 @@ layout: default
 
 ## Project description
 
+
 Highlight it (hilit.it) is an open source project.
 
   * The goal of the Hilit.it is: an easy way to summarize and share summaries of articles.
@@ -22,10 +23,11 @@ In order to protect users from accidentaly highlighting sensitive data
  * a list of un hilitable sites will be set, sites like gmail.com,
  * pages are by default un hilitable, until one first user explicitly enables hilit.it for this page
 
-# Project Status
+## Project Status
 
 ## Browser, Chrome Extension
 
+### Development
  * [x] Chrome options login
    * [x] Chrome options login, link to register
    * [x] Chrome options save login credentials
@@ -50,16 +52,31 @@ In order to protect users from accidentaly highlighting sensitive data
  * [x] flash Chrome page_action icon (green) to indicate available hilits
  * [ ] aggreate overlapping hilits to generate consessus hilits
 
+### Hosting
+ * [ ] Create Google Chrome webstore account
+
+---
+
 ## Server, Ruby On Rails 
+
+### Development
  * [ ] User management (devise)
    * [ ] Login
+     * [ ] API
+     * [ ] Web
    * [ ] register
+     * [ ] Web
  * [ ] Hilits models
    * [ ] aggregate overlapping hilits 
  * [ ] Hilits API 
    * [ ] create
    * [ ] index/list 
    * [ ] show 
+ * [ ] Deployment
+   * [ ] Domain name
+   * [ ] create a RDS db
+   * [ ] AWS Account, Free Tier
+   * [ ] AWS code Deployment
   
 ## Web client, AngularJS
 
