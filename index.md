@@ -1,16 +1,16 @@
 ---
-title: Hilit.it
+title: WeHighlight.com
 layout: default
 ---
 
-# Hilit.it
+# WeHighlight.com
 
 ## Project description
 
 
-Highlight it (hilit.it) is an open source project.
+Highlight it (wehighlight.com) is an open source project.
 
-  * The goal of the Hilit.it is: an easy way to summarize and share summaries of articles.
+  * The goal of the WeHighlight.com is: an easy way to summarize and share summaries of articles.
   * as readers find interesting lines in articles, they select/highlight those lines.
   * when other readers open those articles, they will have the option to see the lines other readers find interesting highlighted.
   * as more readers highlight lines, hilits overlap, an aggregation/consessus can be generated of the most important lines.
@@ -21,7 +21,7 @@ In order to protect users from accidentaly highlighting sensitive data
 
  * only HTTP sites are hilitable, HTTPS sites are not hilitable.
  * a list of un hilitable sites will be set, sites like gmail.com,
- * pages are by default un hilitable, until one first user explicitly enables hilit.it for this page
+ * pages are by default un hilitable, until one first user explicitly enables wehighlight.com for this page
 
 ## Project Status
 
@@ -33,7 +33,7 @@ In order to protect users from accidentaly highlighting sensitive data
    * [x] Chrome options save login credentials
    * [x] Chrome reload save credentials on load
    * [x] message to indicate login failure
- * [x] Activate hilit.it for a page first time.
+ * [x] Activate wehighlight.com for a page first time.
    * [x] message that no previous hilits
    * [x] logged in user, will have the option to highlight
    * [x] guest given login link
