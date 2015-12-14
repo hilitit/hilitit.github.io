@@ -4,13 +4,13 @@ tagline: Site Tagline
 author :
   name : Mohammed O. Tillawy
   email : tillawy@gmail.com
-  github : hilitit
-  twitter : hiliit
+  github : wehighlight
+  twitter : wehighlight
 
-name: "Hilit.it"
-description: "Hilit.it Public Site"
+name: "WeHighlight.com"
+description: "WeHighlight About Public Site"
 
-url: "www.hilit.it"
+url: "about.wehighlight.com"
 
 paginate: 10
 
