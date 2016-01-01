@@ -53,7 +53,12 @@ In order to protect users from accidentaly highlighting sensitive data
  * [ ] aggreate overlapping hilits to generate consessus hilits
 
 ### Hosting
- * [ ] Create Google Chrome webstore account
+ * [x] Create Google Chrome webstore account (for user: wehighlightapp@gmail.com)
+ * [x] Upload first build 0.0.1
+ * [ ] write descriction
+ * [ ] record video
+ * [ ] promotional tile images(440 * 280)
+ * [ ] Screenshots
 
 ---
 
@@ -66,7 +71,7 @@ In order to protect users from accidentaly highlighting sensitive data
      * [ ] Web
    * [ ] register
      * [ ] Web
- * [ ] Hilits models
+ * [x] Hilits models
    * [ ] aggregate overlapping hilits 
  * [ ] Hilits API 
    * [ ] create
@@ -78,7 +83,11 @@ In order to protect users from accidentaly highlighting sensitive data
    * [ ] AWS Account, Free Tier
    * [ ] AWS code Deployment
   
+## Web Interface, stanard HTML
+ * [ ] setup bootstrap
+
 ## Web client, AngularJS
+ * [ ] set up Angular2 with Rails
 
 ## Mobile client, iOS
 
