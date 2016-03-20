@@ -1,6 +1,7 @@
 ---
 title: Hello, World!
 layout: default
+permalink: /about
 ---
 
 # Hello World

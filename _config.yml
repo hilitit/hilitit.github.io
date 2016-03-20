@@ -12,6 +12,9 @@ description: "WeHighlight About Public Site"
 
 url: "about.wehighlight.com"
 
+gems: [jekyll-paginate, jekyll-gist]
+
+
 paginate: 10
 
 markdown: kramdown

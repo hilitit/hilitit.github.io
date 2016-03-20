@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>{{ site.name }}</title>
+    <title>{{  site.name }} {{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" type="text/css" href="/stylesheets/normalize.css" media="screen">
@@ -12,7 +12,7 @@
   </head>
   <body>
     <section class="page-header">
-      <h1 class="project-name">WeHighlight.com</h1>
+      <h1 class="project-name">{{ site.name }}</h1>
       <h2 class="project-tagline"></h2>
       <a href="https://github.com/wehighlight" class="btn">View on GitHub</a>
       <a href="https://github.com/hilitit/hilitit/zipball/master" class="btn">Download .zip</a>

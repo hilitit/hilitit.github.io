@@ -1,19 +1,35 @@
 ---
 title: WeHighlight.com
 layout: default
+permalink: /
 ---
+
+
 
 # WeHighlight.com
 
 ## Project description
 
 
-Highlight it (wehighlight.com) is an open source project.
+(_WeHighlight.com_) is an open source project, with the following goals:
 
-  * The goal of the WeHighlight.com is: an easy way to summarize and share summaries of articles.
+  * demonstrate big data to analyze patterns and relevance in latest news
+  * Easy way to summarize and share summaries of articles.
+
+How?
+
   * as readers find interesting lines in articles, they select/highlight those lines.
   * when other readers open those articles, they will have the option to see the lines other readers find interesting highlighted.
   * as more readers highlight lines, hilits overlap, an aggregation/consessus can be generated of the most important lines.
+
+## Components:
+
+WeHighlight.com consists of the following components:
+
+  * [Chrome Extension](google_chrome_extension)
+  * [Rails Backend](ruby_on_rails_backend)
+  * [Spark Big data engine](big_data_engine)
+  * [Jekyll project description site](jekyll_site)
 
 ## Privacy
 
@@ -23,11 +39,11 @@ In order to protect users from accidentaly highlighting sensitive data
  * a list of un hilitable sites will be set, sites like gmail.com,
  * pages are by default un hilitable, until one first user explicitly enables wehighlight.com for this page
 
-## Project Status
+## Project RoadMap
 
-## Browser, Chrome Extension
+### Browser, Chrome Extension
 
-### Development
+#### Development
  * [x] Chrome options login
    * [x] Chrome options login, link to register
    * [x] Chrome options save login credentials
@@ -65,26 +81,26 @@ In order to protect users from accidentaly highlighting sensitive data
 ## Server, Ruby On Rails 
 
 ### Development
- * [ ] User management (devise)
-   * [ ] Login
-     * [ ] API
-     * [ ] Web
-   * [ ] register
-     * [ ] Web
+ * [x] User management (devise)
+   * [x] Login
+     * [x] API
+     * [x] Web
+   * [x] register
+     * [x] Web
  * [x] Hilits models
    * [ ] aggregate overlapping hilits 
- * [ ] Hilits API 
-   * [ ] create
-   * [ ] index/list 
-   * [ ] show 
- * [ ] Deployment
-   * [ ] Domain name
-   * [ ] create a RDS db
-   * [ ] AWS Account, Free Tier
-   * [ ] AWS code Deployment
+ * [x] Hilits API 
+   * [x] create
+   * [x] index/list 
+   * [x] show 
+ * [x] Deployment
+   * [x] Domain name
+   * [x] create a RDS db
+   * [x] AWS Account, Free Tier
+   * [x] AWS code Deployment
   
 ## Web Interface, stanard HTML
- * [ ] setup bootstrap
+ * [x] setup bootstrap
 
 ## Web client, AngularJS
  * [ ] set up Angular2 with Rails
